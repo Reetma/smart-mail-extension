@@ -1,0 +1,12 @@
+{
+  "name": "smart-mail-extension",
+  "private": true,
+  "type": "module",
+  "description": "Extension Chrome Smart Mail : relève les adresses proposées par Outlook web et envoie un message à chacune, un par un.",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  }
+}
